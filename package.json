@@ -1,14 +1,20 @@
 {
-  "name": "hyper-statusline",
-  "version": "1.7.6",
-  "description": "Status Line Plugin for Hyper",
+  "name": "@baevra/hyper-statusline",
+  "version": "1.7.7",
+  "description": "Status Line Plugin for Hyper. Fork verion.",
   "main": "index.js",
   "license": "MIT",
-  "repository": "henrikdahl/hyper-statusline",
-  "author": {
-    "name": "Henrik Dahlheim",
-    "email": "henrik.dahlheim@gmail.com"
-  },
+  "repository": "baevra/hyper-statusline",
+  "contributors": [
+    {
+      "name": "Henrik Dahlheim",
+      "email": "henrik.dahlheim@gmail.com"
+    },
+    {
+      "name": "Roman Baev",
+      "email": "baevra@gmail.com"
+    }
+  ],
   "files": [
     "index.js"
   ],
