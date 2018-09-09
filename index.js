@@ -332,6 +332,7 @@ exports.middleware = (store) => (next) => (action) => {
     switch (action.type) {
         case 'SESSION_SET_XTERM_TITLE':
             pid = uids[action.uid].pid;
+            setCwd(pid);
             break;
 
         case 'SESSION_ADD':
